@@ -7,7 +7,6 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='Styles/style.css'>
     <script src="https://kit.fontawesome.com/29929da11a.js" crossorigin="anonymous"></script>
-    <script src='main.js'></script>
 </head>
 <body>
 
@@ -22,23 +21,23 @@
             <span class="user-points points">0</span>
             <span class="points">:</span>
             <span class="cpu-points points ">0</span>
-
+            
 
         </div>
     </div>
 
     <div class="creator"><p>Made by Dahi</p></div>
-
+    
     <div class="pictures-box">
-        <div class="rock picture">
+        <div class="rock picture" id="rock">
             <div class="icon-container">
                 <span style="font-size: 3.5em; color: white;">
                     <i class="fa-solid fa-hand-fist"></i>
                 </span>
             </div>
         </div>
-
-        <div class="paper picture">
+        
+        <div class="paper picture" id="paper">
             <div class="icon-container">
                 <span style="font-size: 2.5em; color: white;">
                     <i class="fa-solid fa-hand fa-xl" ></i>
@@ -46,7 +45,7 @@
             </div>
         </div>
 
-        <div class="scissors picture">
+        <div class="scissors picture" id="scissors">
             <div class="icon-container">
                 <span style="font-size: 2.5em; color: white;">
                     <i class="fa-solid fa-hand-scissors fa-xl" ></i>
@@ -54,10 +53,11 @@
             </div>
         </div>
     </div>
-
+    
     <div class="move-box">
         <p>¡Make your move!</p>
     </div>
     
+    <script src='Js/main.js'></script>
 </body>
 </html>
