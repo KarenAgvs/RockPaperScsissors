@@ -18,15 +18,20 @@
         <div class="score-container">
             <div class="user-label label">User</div>
             <div class="cpu-label label">Cpu</div>
-            <span class="user-points points">0</span>
+            <span class="user-points points" id="user-points">0</span>
             <span class="points">:</span>
-            <span class="cpu-points points ">0</span>
+            <span class="cpu-points points " id="cpu-points">0</span>
             
 
         </div>
     </div>
 
     <div class="creator"><p>Made by Dahi</p></div>
+    <div class="showMoves" id="showMoves">
+        <p >User: <span id="user-move"> Move</span></p>
+        <p >Cpu: <span id="cpu-move">Move</span></p>
+
+    </div>
     
     <div class="pictures-box">
         <div class="rock picture" id="rock">
@@ -54,9 +59,10 @@
         </div>
     </div>
     
-    <div class="move-box">
+    <div class="move-box" id="move-box">
         <p>¡Make your move!</p>
     </div>
+
     
     <script src='Js/main.js'></script>
 </body>

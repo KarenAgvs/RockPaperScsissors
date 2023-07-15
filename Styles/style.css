@@ -117,6 +117,13 @@ header{
 
 } 
 
+.showMoves{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem;
+}
+
 @keyframes animation {
 
     from{
